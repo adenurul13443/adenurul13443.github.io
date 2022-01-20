@@ -1,0 +1,189 @@
+.header{
+    padding: 70px 50px 90px 100px;
+    text-align: left;
+    font-size: 25px;
+    color: #000000;
+    background: #8FC0A9;
+    border-radius: 20px;
+}
+section{
+    margin: auto;
+    display: flex;
+    /* tampilan div berbentuk kolom */
+    background: #8FC0A9;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+img{
+    margin-left: 110px;
+    margin-right: 70px;
+}
+.logo{
+    float: left;
+    margin-left: 50px;
+    font-size: 25px;
+    color: #0FA958;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.topnav{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.topnav a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+a.tbl_home{
+    background: #8FC0A9;
+    border-radius: 20px;
+    padding: 10px 10px;
+    color: #ffff;
+    cursor: pointer;
+}
+.topnav a:hover{
+    background-color: #0FA958;
+    border-radius: 20px;
+    color: white;
+}
+a.tbl_home:hover{
+    background-color: #0FA958;
+}
+h3{
+    margin-top: 100px;
+    font-size: 16px;
+}
+.info{
+    margin: 50px 80px 100px 80px;
+    padding: 20px 80px 20px 50px;
+    border-radius: 10px;
+    border: solid black 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.info p{
+    font-size: 18px;
+}
+a.tbl1{
+    background: #8FC0A9;
+    border-radius: 10px;
+    padding: 9px 14px 9px 14px;
+    color: black;
+}
+a.tbl1:hover{
+    background: #376b53;
+    color: white;
+}
+.content{
+    background-color: white;
+    margin-bottom: 900px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: #e5e5e5;
+    border-radius: 20px;
+    margin: 0px 10px 10px 50px;
+    float: left;
+}
+.isi {
+    margin: 0px 50px; 
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.isi img{
+    margin: 40px 12px 8px 12px;
+    height: 80px;
+    width: 80px;
+}
+.kotak:hover{
+    background-color: #0FA958;
+}
+
+/* Untuk tiap produk */
+.kolom{
+    float: left;
+    width: 25%;
+    padding: 10px 30px 10px 30px;
+}
+.baris{
+    margin: 0px 20px;
+}
+.kartu{
+    width: 290px;
+    height: 370px;
+    border: solid black 1px;
+    border-radius: 10px;
+    margin: 0px 50px 50px 50px;
+}
+.kartu img{
+    margin: 16px 45px 0px 45px;
+    width: 200px; 
+    height: 120px;
+}
+.kontainer{
+    padding: 50px 25px;
+    font-size: 18px;
+
+}
+.tbl_pesan{
+    background: #0FA958;
+    border-radius: 10px;
+    padding: 6px 9px 6px 9px;
+    color: white;
+    font-size: 14px;
+}
+.tbl_pesan:hover{
+    background: #376b53;
+    color: white;
+}
+.tbl_produk{
+    background: #0FA958;
+    border-radius: 10px;
+    padding: 7px 10px 7px 10px;
+    color: white;
+    float: right;
+    font-size: 18px;
+    margin-right: 120px;
+    margin-top: 0px;
+}
+.tbl_produk:hover{
+    background: #376b53;
+    color: white;
+}
+.tbl2{
+    background: #0FA958;
+    border-radius: 20px;
+    padding: 9px 14px 9px 14px;
+    color: white;
+    margin-left: 150px;
+}
+.tbl2:hover{
+    background: #376b53;
+    color: white;
+}
+.footer {
+    padding: 25px 30px 25px 50px;
+    background-color: #e5e5e5;
+    line-height: 30px;
+    font-size: 18px;
+}
+#copyright{
+    margin-top: 0px;
+    padding: 9px 10px;
+    background-color: #727272;
+    color: #ffff;
+}
